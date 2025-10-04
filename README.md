@@ -1,4 +1,4 @@
-# Basic Python Concepts - Assignment 1
+# Basic Concepts of python- Assignment 1
 
 This repository contains two Python programs:
 
