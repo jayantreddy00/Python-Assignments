@@ -1,26 +1,27 @@
 # Task 1: Perform Basic Operations
 
-a=20
-b=10
+a= int(input("Enter the Number: "))
+b= int(input("Enter the Number: "))
 
 # Addition
-print(a+b)
+print("Addition", a + b)
 
 # Subtraction
-print(a-b)
+print("Subtraction", a - b)
 
 # Multiplication
-print(a*b)
+print("Multiplication", a * b)
 
 # Division
-print(a/b)
+print("Division", a / b)
+
 
 # Task 2: Create a Personalized Greeting
 
 #1.
-firstname = "Jayant"
-lastname = " Reddy"
-print(firstname + lastname)
+firstname = input("Enter your first name: ")
+lastname = input("Enter your last name: ")
+print( firstname + lastname)
 
 #2.
-print("Hello" + " Jayant" + " Reddy!" + " Welcome to Python" + " programming," + " All the Best from Tute dude Team.")
+print("Hello " + firstname + " " +  lastname + " Welcome to Python" + " programming," + " All the Best from Tutedude Team.")
